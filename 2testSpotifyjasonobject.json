@@ -1,0 +1,115 @@
+{
+  "artists": {
+    "href": "https://api.spotify.com/v1/search?query=ace+of+base&type=artist&market=US&offset=1&limit=1",
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7kXQy9NWHZx6AYBN0Uzi3a"
+        },
+        "followers": {
+          "href": null,
+          "total": 16
+        },
+        "genres": [],
+        "href": "https://api.spotify.com/v1/artists/7kXQy9NWHZx6AYBN0Uzi3a",
+        "id": "7kXQy9NWHZx6AYBN0Uzi3a",
+        "images": [],
+        "name": "Rico Bernasconi & Ace Of Base",
+        "popularity": 2,
+        "type": "artist",
+        "uri": "spotify:artist:7kXQy9NWHZx6AYBN0Uzi3a"
+      }
+    ],
+    "limit": 1,
+    "next": "https://api.spotify.com/v1/search?query=ace+of+base&type=artist&market=US&offset=2&limit=1",
+    "offset": 1,
+    "previous": "https://api.spotify.com/v1/search?query=ace+of+base&type=artist&market=US&offset=0&limit=1",
+    "total": 3
+  },
+  "tracks": {
+    "href": "https://api.spotify.com/v1/search?query=ace+of+base&type=track&market=US&offset=1&limit=1",
+    "items": [
+      {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5ksRONqssB7BR161NTtJAm"
+              },
+              "href": "https://api.spotify.com/v1/artists/5ksRONqssB7BR161NTtJAm",
+              "id": "5ksRONqssB7BR161NTtJAm",
+              "name": "Ace of Base",
+              "type": "artist",
+              "uri": "spotify:artist:5ksRONqssB7BR161NTtJAm"
+            }
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/6cpOIdpPfGaazHsh5eYz0k"
+          },
+          "href": "https://api.spotify.com/v1/albums/6cpOIdpPfGaazHsh5eYz0k",
+          "id": "6cpOIdpPfGaazHsh5eYz0k",
+          "images": [
+            {
+              "height": 600,
+              "url": "https://i.scdn.co/image/e13a785d7c1cbfca9ca21591d3fed5e78c7f6dc4",
+              "width": 600
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/570155892d1ea3733da00be69cd319d85d681396",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/6ccd240e42ebf93cc8c242e3c282da8b717a1c41",
+              "width": 64
+            }
+          ],
+          "name": "Happy Nation (Remastered)",
+          "release_date": "1994",
+          "release_date_precision": "year",
+          "total_tracks": 14,
+          "type": "album",
+          "uri": "spotify:album:6cpOIdpPfGaazHsh5eYz0k"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5ksRONqssB7BR161NTtJAm"
+            },
+            "href": "https://api.spotify.com/v1/artists/5ksRONqssB7BR161NTtJAm",
+            "id": "5ksRONqssB7BR161NTtJAm",
+            "name": "Ace of Base",
+            "type": "artist",
+            "uri": "spotify:artist:5ksRONqssB7BR161NTtJAm"
+          }
+        ],
+        "disc_number": 1,
+        "duration_ms": 211213,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "SEVJH0803401"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/12BbMJsJi65mxneq6c9Lm7"
+        },
+        "href": "https://api.spotify.com/v1/tracks/12BbMJsJi65mxneq6c9Lm7",
+        "id": "12BbMJsJi65mxneq6c9Lm7",
+        "is_local": false,
+        "is_playable": true,
+        "name": "All That She Wants",
+        "popularity": 68,
+        "preview_url": "https://p.scdn.co/mp3-preview/ac41624323eaeb9f3f7b2c5ec585790cb1f9c8a8?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 2,
+        "type": "track",
+        "uri": "spotify:track:12BbMJsJi65mxneq6c9Lm7"
+      }
+    ],
+    "limit": 1,
+    "next": "https://api.spotify.com/v1/search?query=ace+of+base&type=track&market=US&offset=2&limit=1",
+    "offset": 1,
+    "previous": "https://api.spotify.com/v1/search?query=ace+of+base&type=track&market=US&offset=0&limit=1",
+    "total": 941
+  }
+}
